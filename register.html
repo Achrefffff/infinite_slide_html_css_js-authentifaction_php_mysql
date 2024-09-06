@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="assets/css/style_auth.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Inscription</h1>
+        <form id="registerForm">
+            <label for="username">Nom d'utilisateur</label>
+            <input type="text" name="username" id="username" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="password">Mot de passe</label>
+            <input type="password" name="password" id="password" required>
+
+            <button type="submit">S'inscrire</button>
+        </form>
+        <p>Déjà un compte ? <a href="login.html">Se connecter</a></p>
+        <div id="registerMessage"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/auth.js"></script>
+</body>
+</html>
